@@ -2,9 +2,9 @@
 
 namespace Finller\Metadata;
 
+use Finller\Metadata\Commands\MetadataCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Finller\Metadata\Commands\MetadataCommand;
 
 class MetadataServiceProvider extends PackageServiceProvider
 {
@@ -17,9 +17,9 @@ class MetadataServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('laravel-model-metadata');
-            // ->hasConfigFile()
-            // ->hasViews()
-            // ->hasMigration('create_laravel-model-metadata_table')
-            // ->hasCommand(MetadataCommand::class);
+        // ->hasConfigFile()
+        // ->hasViews()
+        // ->hasMigration('create_laravel-model-metadata_table')
+        // ->hasCommand(MetadataCommand::class);
     }
 }

@@ -2,9 +2,9 @@
 
 namespace Finller\Metadata\Tests;
 
+use Finller\Metadata\MetadataServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Finller\Metadata\MetadataServiceProvider;
 
 class TestCase extends Orchestra
 {
