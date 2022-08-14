@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Finller\Metadata\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class MetadataCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-model-metadata';
 
     public $description = 'My command';
 
